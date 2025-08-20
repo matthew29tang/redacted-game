@@ -50,7 +50,7 @@ Pseudorandom number generators are very useful in developing Monte Carlo - metho
     puzzleId: 3,
     name: "Connections",
     points: 2,
-    body: (<div><i>Historical records indicate that they had a fixed link.</i></div>),
+    body: (<div><i>Historical records indicate that it connected 2 things.</i></div>),
     answer: "Golden Gate Bridge",
     article: `
 The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one - mile - wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean in California, United States. The structure links San Francisco - the northern tip of the San Francisco Peninsula - to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait. It also carries pedestrian and bicycle traffic, and is designated as part of U.S. Bicycle Route 95. Recognized by the American Society of Civil Engineers as one of the Wonders of the Modern World, the bridge is one of the most internationally recognized symbols of San Francisco and California.
@@ -193,7 +193,7 @@ After a phase (1990 - 2001) of structural strengthening, the tower has been unde
     puzzleId: 9,
     name: "Division",
     points: 6,
-    body: (<div><i>Historical records indicate that it divided.</i><br/><br/>A hint is available at a cost of 2 points.</div>),
+    body: (<div><i>Historical records indicate that it could have strange implications when moving around.</i><br/><br/>A hint is available at a cost of 2 points.</div>),
     answer: "International Date Line",
     article: `
 The International Date Line (IDL) is the line extending between the South and North Poles that is the boundary between one calendar day and the next. It passes through the Pacific Ocean, roughly following the 180° line of longitude and deviating to pass around some territories and island groups. Crossing the date line eastbound decreases the date by one day, while crossing the date line westbound increases the date.
@@ -246,6 +246,12 @@ In September, Tom discovers the affair when Daisy carelessly addresses Gatsby wi
 While returning to East Egg, Gatsby and Daisy drive by Wilson's garage and their car strikes Myrtle, killing her instantly. Later Gatsby reveals to Nick that Daisy was driving the car, but that he intends to take the blame for the accident to protect her. Nick urges Gatsby to flee to avoid prosecution, but he refuses. After Tom tells George that Gatsby owns the car that struck Myrtle, a distraught George assumes the owner of the vehicle must be Myrtle's lover. George fatally shoots Gatsby in his mansion's swimming pool, then kills himself.
 
 Several days after Gatsby's murder, his father Henry Gatz arrives for the sparsely attended funeral. After Gatsby's death, Nick comes to hate New York and decides that Gatsby, Daisy, Tom, and he were all Midwesterners unsuited to Eastern life.[d] Nick encounters Tom and initially refuses to shake his hand. Tom admits he was the one who told George that Gatsby owned the vehicle that killed Myrtle. Before returning to the Midwest, Nick returns to Gatsby's mansion and stares across the bay at the green light emanating from the end of Daisy's dock.
+
+<h2>Critical</h2> <h2>Analysis</h2>
+
+Following the novel's revival, later critical writings on The Great Gatsby focused on Fitzgerald's disillusionment with the American Dream in the hedonistic Jazz Age, a name for the era which Fitzgerald claimed to have coined. In 1970, scholar Roger L. Pearson asserted that Fitzgerald's work - more so than other twentieth century novels - is especially linked with this conceptualization of the American dream. Pearson traced the literary origins of this dream to Colonial America. The dream is the belief that every individual, regardless of their origins, may seek and achieve their desired goals, "be they political, monetary, or social. It is the literary expression of the concept of America: The land of opportunity".
+
+Scholars and writers commonly ascribe Gatsby's inability to achieve the American Dream to entrenched class disparities in American society. The novel underscores the limits of the American lower class to transcend their station of birth. Scholar Sarah Churchwell contends that Fitzgerald's novel is a tale of class warfare in a status-obsessed country that refuses to acknowledge publicly it even has a class system.
     `,
   }, {
     puzzleId: 11,
