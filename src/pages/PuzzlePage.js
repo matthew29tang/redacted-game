@@ -244,7 +244,7 @@ class PuzzlePage extends React.Component {
             <h2 style={{ marginTop: "5px", marginBottom: "5px" }}>{this.state.pts} {this.state.pts > 1 ? "points" : "point"}</h2>
             <Divider />
             <br />
-            <div className={classes.body} style={{height: '300px', padding: '10px', overflowY: 'auto',}}>
+            <div className={classes.body} style={{height: '300px', padding: '10px', overflowY: 'scroll',}}>
             <center>
               {this.state.body}
               <h1 style={{marginBottom: "0px",  fontSize: "40px"}}>
