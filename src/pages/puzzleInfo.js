@@ -8,7 +8,7 @@ let puzzleInfo = [
   }, {
     puzzleId: 1,
     name: "Spacing Out",
-    points: 1,
+    points: 2,
     body: (<div><i>Historical records indicate that they looked to the skies.</i></div>),
     answer: "Gemini (Constellation)",
     article: `
@@ -29,51 +29,10 @@ The constellation contains 85 stars of naked eye visibility.
 
 The brightest star in Gemini is Pollux, and the second - brightest is Castor. Castor's Bayer designation as "Alpha" arose because Johann Bayer did not carefully distinguish which of the two was the brighter when he assigned his eponymous designations in 1603. Although the characters of myth are twins, the actual stars are physically very different from each other.
 `,
-  }, {
+}, {
     puzzleId: 2,
-    name: "Unforseeable Future",
-    points: 2,
-    body: (<div><i>Historical records indicate that they were unpredictable.</i></div>),
-    answer: "Random number generation",
-    article:`
-Random number generation is a process by which, often by means of a random number generator (RNG), a sequence of numbers or symbols is generated that cannot be reasonably predicted better than by random chance. This means that the particular outcome sequence will contain some patterns detectable in hindsight but impossible to foresee. True random number generators can be hardware random - number generators (HRNGs), wherein each generation is a function of the current value of a physical environment's attribute that is constantly changing in a manner that is practically impossible to model. This would be in contrast to so - called "random number generations" done by pseudorandom number generators (PRNGs), which generate numbers that only look random but are in fact predetermined - these generations can be reproduced simply by knowing the state of the PRNG.
-
-Various applications of randomness have led to the development of different methods for generating random data. Some of these have existed since ancient times, including well - known examples like the rolling of dice, coin flipping, the shuffling of playing cards, the use of yarrow stalks (for divination) in the I Ching, as well as countless other techniques. Because of the mechanical nature of these techniques, generating large quantities of sufficiently random numbers (important in statistics) required much work and time. Thus, results would sometimes be collected and distributed as random number tables.
-
-<h2>Practical</h2>  <h2>applications</h2>  <h2>and</h2>  <h2>uses</h2> 
-
-Random number generators have applications in gambling, statistical sampling, computer simulation, cryptography, completely randomized design, and other areas where producing an unpredictable result is desirable. Generally, in applications having unpredictability as the paramount feature, such as in security applications, hardware generators are generally preferred over pseudorandom algorithms, where feasible.
-
-Pseudorandom number generators are very useful in developing Monte Carlo - method simulations, as debugging is facilitated by the ability to run the same sequence of random numbers again by starting from the same random seed. They are also used in cryptography - so long as the seed is secret. The sender and receiver can generate the same set of numbers automatically to use as keys.
-    `,
-  }, {
-    puzzleId: 3,
-    name: "Connections",
-    points: 2,
-    body: (<div><i>Historical records indicate that it connected 2 things.</i></div>),
-    answer: "Golden Gate Bridge",
-    article: `
-The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one - mile - wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean in California, United States. The structure links San Francisco - the northern tip of the San Francisco Peninsula - to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait. It also carries pedestrian and bicycle traffic, and is designated as part of U.S. Bicycle Route 95. Recognized by the American Society of Civil Engineers as one of the Wonders of the Modern World, the bridge is one of the most internationally recognized symbols of San Francisco and California.
-
-The idea of a fixed link between San Francisco and Marin had gained increasing popularity during the late 19th century, but it was not until the early 20th century that such a link became feasible. Joseph Strauss served as chief engineer for the project, with Leon Moisseiff, Irving Morrow and Charles Ellis making significant contributions to its design. The bridge opened to the public on May 27, 1937, and has undergone various retrofits and other improvement projects in the decades since.
-
-The Golden Gate Bridge is described in Frommer's travel guide as "possibly the most beautiful, certainly the most photographed, bridge in the world." At the time of its opening in 1937, it was both the longest and the tallest suspension bridge in the world, titles it held until 1964 and 1998 respectively. Its main span is 4,200 feet (1,280 m) and its total height is 746 feet (227 m).
-
-<h2>History</h2>
-
-Before the bridge was built, the only practical short route between San Francisco and what is now Marin County was by boat across a section of San Francisco Bay. A ferry service began as early as 1820, with a regularly scheduled service beginning in the 1840s for the purpose of transporting water to San Francisco.
-
-<h2>Navigational</h2> <h2>Aid</h2>
-
-The Golden Gate Bridge's first aircraft warning lights used rotating aerobeacons at the top of the towers that flashed red. In the 1980s, the present - day 750 - watt red lamps were put into service, along with 16 red outline lanterns on the cables to enhance the structure's visibility at night. For maritime movement, the bridge has white and green navigation lights on both sides at the midspan and red safety lights marking the south tower's fender.
-
-<h2>Foghorns</h2>
-Commonly, particularly during the summer months, fog on the strait becomes so dense that it can fully obscure the whole bridge, creating an even greater hazard for mariners. A system of five foghorns was thus set up on the bridge in 1937 and remains operational to this day. The fog signals are air - powered and are manually switched on and off. Coast Guard regulates the pattern and pitch by which the horns must sound.
-    `,
-  }, {
-    puzzleId: 4,
     name: "Choices",
-    points: 3,
+    points: 2,
     body: (<div><i>Historical records indicate that they had to make a tough choice.</i></div>),
     answer: "Trolley Problem",
     article: `
@@ -92,32 +51,33 @@ The trolley problem has been the subject of many surveys in which about 90% of r
 A 2009 survey by David Bourget and David Chalmers shows that 68% of professional philosophers would switch (sacrifice the one individual to save five lives) in the case of the trolley problem, 8% would not switch, and the remaining 24% had another view or could not answer.
     `,
   }, {
-    puzzleId: 5,
-    name: "Rat-powered",
+    puzzleId: 3,
+    name: "Connections",
     points: 3,
-    body: (<div><i>Historical records indicate that it was powered by rats.</i></div>),
-    answer: "Black Death",
+    body: (<div><i>Historical records indicate that it connected 2 things.</i></div>),
+    answer: "Golden Gate Bridge",
     article: `
-The Black Death was a bubonic plague pandemic that occurred in Europe from 1346 to 1353. It was one of the most fatal pandemics in human history; as many as 50 million people perished, perhaps 50% of Europe's 14th century population. The disease is caused by the bacterium Yersinia pestis and spread by fleas and through the air. One of the most significant events in European history, the Black Death had far - reaching population, economic, and cultural impacts. It was the beginning of the second plague pandemic. The plague created religious, social and economic upheavals, with profound effects on the course of European history.
+The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one - mile - wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean in California, United States. The structure links San Francisco - the northern tip of the San Francisco Peninsula - to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait. It also carries pedestrian and bicycle traffic, and is designated as part of U.S. Bicycle Route 95. Recognized by the American Society of Civil Engineers as one of the Wonders of the Modern World, the bridge is one of the most internationally recognized symbols of San Francisco and California.
 
-The origin of the Black Death is disputed. Genetic analysis suggests Yersinia pestis bacteria evolved approximately 7,000 years ago, at the beginning of the Neolithic, with flea - mediated strains emerging around 3,800 years ago during the late Bronze Age. The immediate territorial origins of the Black Death and its outbreak remain unclear, with some evidence pointing towards Central Asia, China, the Middle East, and Europe. The pandemic was reportedly first introduced to Europe during the siege of the Genoese trading port of Kaffa in Crimea by the Golden Horde army of Jani Beg in 1347. From Crimea, it was most likely carried by fleas living on the black rats that travelled on Genoese ships, spreading through the Mediterranean Basin and reaching North Africa, West Asia, and the rest of Europe via Constantinople, Sicily, and the Italian Peninsula. There is evidence that once it came ashore, the Black Death mainly spread from person - to - person as pneumonic plague, thus explaining the quick inland spread of the epidemic, which was faster than would be expected if the primary vector was rat fleas causing bubonic plague. In 2022, it was discovered that there was a sudden surge of deaths in what is today Kyrgyzstan from the Black Death in the late 1330s; when combined with genetic evidence, this implies that the initial spread may have been unrelated to the 14th century Mongol conquests previously postulated as the cause.
+The idea of a fixed link between San Francisco and Marin had gained increasing popularity during the late 19th century, but it was not until the early 20th century that such a link became feasible. Joseph Strauss served as chief engineer for the project, with Leon Moisseiff, Irving Morrow and Charles Ellis making significant contributions to its design. The bridge opened to the public on May 27, 1937, and has undergone various retrofits and other improvement projects in the decades since.
 
-The Black Death was the second great natural disaster to strike Europe during the Late Middle Ages (the first one being the Great Famine of 1315 - 1317) and is estimated to have killed 30% to 60% of the European population, as well as approximately 33% of the population of the Middle East. There were further outbreaks throughout the Late Middle Ages and, also due to other contributing factors (the crisis of the late Middle Ages), the European population did not regain its 14th century level until the 16th century. Outbreaks of the plague recurred around the world until the early 19th century.
+The Golden Gate Bridge is described in Frommer's travel guide as "possibly the most beautiful, certainly the most photographed, bridge in the world." At the time of its opening in 1937, it was both the longest and the tallest suspension bridge in the world, titles it held until 1964 and 1998 respectively. Its main span is 4,200 feet (1,280 m) and its total height is 746 feet (227 m).
 
-<h2>Lack</h2>  <h2>of</h2>  <h2>Hygiene</h2>
+<h2>History</h2>
 
-The importance of hygiene was not recognized until the 19th century and the germ theory of disease. Until then streets were usually unhygienic, with live animals and human parasites facilitating the spread of transmissible disease.
+Before the bridge was built, the only practical short route between San Francisco and what is now Marin County was by boat across a section of San Francisco Bay. A ferry service began as early as 1820, with a regularly scheduled service beginning in the 1840s for the purpose of transporting water to San Francisco.
 
-By the early 14th century, so much filth had collected inside urban Europe that French and Italian cities were naming streets after human waste. In medieval Paris, several street names were inspired by merde, the French word for "shit". There were rue Merdeux, rue Merdelet, rue Merdusson, rue des Merdons and rue Merdiere - as well as a rue du Pipi. Pigs, cattle, chickens, geese, goats and horses roamed the streets of medieval London and Paris.
+<h2>Navigational</h2>  <h2>Aid</h2>
 
-<h2>European</h2>  <h2>outbreak</h2>
+The Golden Gate Bridge's first aircraft warning lights used rotating aerobeacons at the top of the towers that flashed red. In the 1980s, the present - day 750 - watt red lamps were put into service, along with 16 red outline lanterns on the cables to enhance the structure's visibility at night. For maritime movement, the bridge has white and green navigation lights on both sides at the midspan and red safety lights marking the south tower's fender.
 
-Plague was reportedly first introduced to Europe via Genoese traders from their port city of Kaffa in the Crimea in 1347. During a protracted siege of the city in 1345 - 1346, the Mongol Golden Horde army of Jani Beg - whose mainly Tatar troops were suffering from the disease - catapulted infected corpses over the city walls of Kaffa to infect the inhabitants, though it is also likely that infected rats travelled across the siege lines to spread the epidemic to the inhabitants. As the disease took hold, Genoese traders fled across the Black Sea to Constantinople, where the disease first arrived in Europe in summer 1347.
+<h2>Foghorns</h2>
+Commonly, particularly during the summer months, fog on the strait becomes so dense that it can fully obscure the whole bridge, creating an even greater hazard for mariners. A system of five foghorns was thus set up on the bridge in 1937 and remains operational to this day. The fog signals are air - powered and are manually switched on and off. Coast Guard regulates the pattern and pitch by which the horns must sound.
     `,
   }, {
-    puzzleId: 6,
+    puzzleId: 4,
     name: "Preservation",
-    points: 4,
+    points: 3,
     body: (<div><i>Historical records indicate that preservation was crucial.</i></div>),
     answer: "Smoking (cooking)",
     article: `
@@ -142,58 +102,110 @@ Hot smoking cooks foods and simultaneously flavors them with smoke in a controll
 <h2>Smoke</h2>  <h2>roasting</h2>
 
 Smoke - roasting refers to any process that has the attributes of both roasting and smoking. This smoking method is sometimes referred to as barbecuing or pit - roasting. It may be done in a smoke - roaster, a closed wood - fired oven, or a barbecue pit, any smoker that can reach above 121 C (250 F), or in a conventional oven by placing a pan filled with hardwood chips on the floor of the oven so that the chips can smolder and produce a smoke - bath. In North America, this smoking method is commonly referred to as "barbecuing", "pit baking", or "pit roasting".
+    `,  
+  }, {
+    puzzleId: 5,
+    name: "Rat-powered",
+    points: 3,
+    body: (<div><i>Historical records indicate that it was powered by rats.</i></div>),
+    answer: "Black Death",
+    article: `
+The Black Death was a bubonic plague pandemic that occurred in Europe from 1346 to 1353. It was one of the most fatal pandemics in human history; as many as 50 million people perished, perhaps 50% of Europe's 14th century population. The disease is caused by the bacterium Yersinia pestis and spread by fleas and through the air. One of the most significant events in European history, the Black Death had far - reaching population, economic, and cultural impacts. It was the beginning of the second plague pandemic. The plague created religious, social and economic upheavals, with profound effects on the course of European history.
+
+The origin of the Black Death is disputed. Genetic analysis suggests Yersinia pestis bacteria evolved approximately 7,000 years ago, at the beginning of the Neolithic, with flea - mediated strains emerging around 3,800 years ago during the late Bronze Age. The immediate territorial origins of the Black Death and its outbreak remain unclear, with some evidence pointing towards Central Asia, China, the Middle East, and Europe. The pandemic was reportedly first introduced to Europe during the siege of the Genoese trading port of Kaffa in Crimea by the Golden Horde army of Jani Beg in 1347. From Crimea, it was most likely carried by fleas living on the black rats that travelled on Genoese ships, spreading through the Mediterranean Basin and reaching North Africa, West Asia, and the rest of Europe via Constantinople, Sicily, and the Italian Peninsula. There is evidence that once it came ashore, the Black Death mainly spread from person - to - person as pneumonic plague, thus explaining the quick inland spread of the epidemic, which was faster than would be expected if the primary vector was rat fleas causing bubonic plague. In 2022, it was discovered that there was a sudden surge of deaths in what is today Kyrgyzstan from the Black Death in the late 1330s; when combined with genetic evidence, this implies that the initial spread may have been unrelated to the 14th century Mongol conquests previously postulated as the cause.
+
+The Black Death was the second great natural disaster to strike Europe during the Late Middle Ages (the first one being the Great Famine of 1315 - 1317) and is estimated to have killed 30% to 60% of the European population, as well as approximately 33% of the population of the Middle East. There were further outbreaks throughout the Late Middle Ages and, also due to other contributing factors (the crisis of the late Middle Ages), the European population did not regain its 14th century level until the 16th century. Outbreaks of the plague recurred around the world until the early 19th century.
+
+<h2>Lack</h2>  <h2>of</h2>  <h2>Hygiene</h2>
+
+The importance of hygiene was not recognized until the 19th century and the germ theory of disease. Until then streets were usually unhygienic, with live animals and human parasites facilitating the spread of transmissible disease.
+
+By the early 14th century, so much filth had collected inside urban Europe that French and Italian cities were naming streets after human waste. In medieval Paris, several street names were inspired by merde, the French word for "shit". There were rue Merdeux, rue Merdelet, rue Merdusson, rue des Merdons and rue Merdiere - as well as a rue du Pipi. Pigs, cattle, chickens, geese, goats and horses roamed the streets of medieval London and Paris.
+
+<h2>European</h2>  <h2>outbreak</h2>
+
+Plague was reportedly first introduced to Europe via Genoese traders from their port city of Kaffa in the Crimea in 1347. During a protracted siege of the city in 1345 - 1346, the Mongol Golden Horde army of Jani Beg - whose mainly Tatar troops were suffering from the disease - catapulted infected corpses over the city walls of Kaffa to infect the inhabitants, though it is also likely that infected rats travelled across the siege lines to spread the epidemic to the inhabitants. As the disease took hold, Genoese traders fled across the Black Sea to Constantinople, where the disease first arrived in Europe in summer 1347.
     `,
   }, {
     puzzleId: 7,
-    name: "Foundational framework",
+    name: "Green-lit",
     points: 4,
-    body: (<div><i>Historical records indicate that it was a foundational framework.</i></div>),
-    answer: "History of the United States Constitution",
+    body: (<div><i>Historical records indicate that although it was greenlit, it ended in tragedy.</i></div>),
+    answer: "The Great Gatsby",
     article: `
-The United States Constitution has served as the supreme law of the United States since taking effect in 1789. The document was written at the 1787 Philadelphia Convention and was ratified through a series of state conventions held in 1787 and 1788. Since 1789, the Constitution has been amended twenty - seven times; particularly important amendments include the ten amendments of the United States Bill of Rights, the three Reconstruction Amendments, and the Nineteenth Amendment.
+The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first - person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.
 
-The Constitution grew out of efforts to reform the Articles of Confederation, an earlier constitution which provided for a loose alliance of states with a weak central government. From May 1787 through September 1787, delegates from twelve of the thirteen states convened in Philadelphia, where they wrote a new constitution. Two alternative plans were developed at the convention. The nationalist majority, soon to be called "Federalists", put forth the Virginia Plan, a consolidated government based on proportional representation among the states by population. The "old patriots", later called "Anti - Federalists", advocated the New Jersey Plan, a purely federal proposal, based on providing each state with equal representation. The Connecticut Compromise allowed for both plans to work together. Other controversies developed regarding slavery and a Bill of Rights in the original document.  
+<h2>Plot</h2>  <h2>summary</h2>
+In spring 1922, Nick Carraway - a Yale alumnus from the Midwest and a World War I veteran - journeys to New York City to obtain employment as a bond salesman. He rents a bungalow in the Long Island village of West Egg, next to a luxurious estate inhabited by Jay Gatsby, an enigmatic multi - millionaire who hosts dazzling soirées yet does not partake in them.
 
-The drafted Constitution was submitted to the Congress of the Confederation in September 1787; that same month it approved the forwarding of the Constitution as drafted to the states, each of which would hold a ratification convention. The Federalist Papers, were published in newspapers while the states were debating ratification, which provided background and justification for the Constitution. Some states agreed to ratify the Constitution only if the amendments that were to become the Bill of Rights would be taken up immediately by the new government. In September 1788, the Congress of the Confederation certified that eleven states had ratified the new Constitution, and chose dates for federal elections and the transition to the new constitution on March 4, 1789. The new government began on March 4, 1789, with eleven states assembled in New York City. North Carolina waited to ratify the Constitution until after the Bill of Rights was passed by the new Congress, and Rhode Island's ratification would only come after a threatened trade embargo.
+One evening, Nick dines with a distant cousin, Daisy Buchanan, in the old money town of East Egg. Daisy is married to Tom Buchanan, formerly a Yale football star whom Nick knew during his college days. The couple has recently relocated from Chicago to a mansion directly across the bay from Gatsby's estate. There, Nick encounters Jordan Baker, an insolent flapper and golf champion who is a childhood friend of Daisy's. Jordan confides to Nick that Tom keeps a mistress, who brazenly telephones him at his home and lives in the "valley of ashes", a sprawling refuse dump. That evening, Nick sees Gatsby standing alone on his lawn, staring at a green light across the bay.
 
-In 1791, the states ratified the Bill of Rights, which established protections for various civil liberties. The Bill of Rights initially only applied to the federal government, but following a process of incorporation most protections of the Bill of Rights now apply to state governments. Further amendments to the Constitution have addressed federal relationships, election procedures, terms of office, expanding the electorate, financing the federal government, consumption of alcohol, and congressional pay. Between 1865 and 1870, the states ratified the Reconstruction Amendments, which abolished slavery, guaranteed equal protection of the law, and implemented prohibitions on the restriction of voter rights. The meaning of the Constitution is interpreted by judicial review in the federal courts. The original parchment copies are on display at the National Archives Building.
+Days later, Nick reluctantly accompanies a drunken and agitated Tom to New York City by train. En route, they stop at a garage inhabited by mechanic George Wilson and his wife - and Tom's mistress - Myrtle. Myrtle joins them, and the trio proceeds to a small New York apartment that Tom has rented for trysts with her. Guests arrive and a party ensues, which ends with Tom slapping Myrtle and breaking her nose after she mentions Daisy.
 
-<h2>Declaration</h2>  <h2>of</h2>  <h2>Independence</h2>
+One morning, Nick receives a formal invitation to a party at Gatsby's mansion. Once there, Nick is embarrassed that he recognizes no one and begins drinking heavily until he encounters Jordan. While chatting with her, he is approached by a man who introduces himself as Jay Gatsby and insists that both he and Nick served in the 3rd Infantry Division during the war. Gatsby attempts to ingratiate himself with Nick and when Nick leaves the party, he notices Gatsby watching him.
 
-On June 4, 1776, a resolution was introduced in the Second Continental Congress declaring the union with Great Britain to be dissolved, proposing the formation of foreign alliances, and suggesting the drafting of a plan of confederation to be submitted to the respective states. Independence was declared on July 4, 1776; the preparation of a plan of confederation was postponed. Although the Declaration was a statement of principles, it did not create a government or even a framework for how politics would be carried out. It was the Articles of Confederation that provided the necessary structure to the new nation during and after the American Revolution. The Declaration, however, did set forth the ideas of natural rights and the social contract that would help form the foundation of constitutional government.
+In late July, Nick and Gatsby have lunch at a speakeasy. Gatsby tries impressing Nick with tales of his war heroism and his Oxford days. Afterward, Nick meets Jordan again at the Plaza Hotel. Jordan reveals that Gatsby and Daisy met around 1917 when Gatsby was an officer in the American Expeditionary Forces. They fell in love, but when Gatsby was deployed overseas, Daisy reluctantly married Tom. Gatsby hopes that his newfound wealth and dazzling parties will make Daisy reconsider. Gatsby uses Nick to stage a reunion with Daisy, and the two embark upon an affair.
 
-The era of the Declaration of Independence is sometimes called the "Continental Congress" period. John Adams famously estimated as many as one - third of those resident in the original thirteen colonies were patriots. Scholars such as Gordon Wood describe how Americans were caught up in the Revolutionary fervor and excitement of creating governments, societies, a new nation on the face of the earth by rational choice as Thomas Paine declared in Common Sense.
+In September, Tom discovers the affair when Daisy carelessly addresses Gatsby with unabashed intimacy in front of him. Later, at a Plaza Hotel suite, Gatsby and Tom argue about the affair. Gatsby insists Daisy declare that she never loved Tom. Daisy claims she loves Tom and Gatsby, upsetting both. Tom reveals Gatsby is a swindler whose money comes from bootlegging alcohol. Upon hearing this, Daisy chooses to stay with Tom. Tom scornfully tells Gatsby to drive her home, knowing that Daisy will never leave him.
+
+While returning to East Egg, Gatsby and Daisy drive by Wilson's garage and their car strikes Myrtle, killing her instantly. Later Gatsby reveals to Nick that Daisy was driving the car, but that he intends to take the blame for the accident to protect her. Nick urges Gatsby to flee to avoid prosecution, but he refuses. After Tom tells George that Gatsby owns the car that struck Myrtle, a distraught George assumes the owner of the vehicle must be Myrtle's lover. George fatally shoots Gatsby in his mansion's swimming pool, then kills himself.
+
+Several days after Gatsby's murder, his father Henry Gatz arrives for the sparsely attended funeral. After Gatsby's death, Nick comes to hate New York and decides that Gatsby, Daisy, Tom, and he were all Midwesterners unsuited to Eastern life.[d] Nick encounters Tom and initially refuses to shake his hand. Tom admits he was the one who told George that Gatsby owned the vehicle that killed Myrtle. Before returning to the Midwest, Nick returns to Gatsby's mansion and stares across the bay at the green light emanating from the end of Daisy's dock.
+
+<h2>Critical</h2>  <h2>Analysis</h2>
+
+Following the novel's revival, later critical writings on The Great Gatsby focused on Fitzgerald's disillusionment with the American Dream in the hedonistic Jazz Age, a name for the era which Fitzgerald claimed to have coined. In 1970, scholar Roger L. Pearson asserted that Fitzgerald's work - more so than other twentieth century novels - is especially linked with this conceptualization of the American dream. Pearson traced the literary origins of this dream to Colonial America. The dream is the belief that every individual, regardless of their origins, may seek and achieve their desired goals, "be they political, monetary, or social. It is the literary expression of the concept of America: The land of opportunity".
+
+Scholars and writers commonly ascribe Gatsby's inability to achieve the American Dream to entrenched class disparities in American society. The novel underscores the limits of the American lower class to transcend their station of birth. Scholar Sarah Churchwell contends that Fitzgerald's novel is a tale of class warfare in a status-obsessed country that refuses to acknowledge publicly it even has a class system.
+    `,
+}, {
+    puzzleId: 9,
+    name: "Love and Revenge",
+    points: 4,
+    body: (<div><i>Historical records indicate that he wrote in the rhythm of a heartbeat.</i></div>),
+    answer: "William Shakespeare",
+    article: `
+William Shakespeare was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon" or simply "the Bard". His extant works, including collaborations, consist of some 39 plays, 154 sonnets, three long narrative poems and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted.
+
+Shakespeare was born and raised in Stratford - upon - Avon, Warwickshire. At the age of 18, he married Anne Hathaway, with whom he had three children: Susanna, and twins Hamnet and Judith. Sometime between 1585 and 1592 he began a successful career in London as an actor, writer, and part - owner ("sharer") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne. At age 49 (around 1613) he appears to have retired to Stratford, where he died three years later. Few records of Shakespeare's private life survive; this has stimulated considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others.
+
+Shakespeare produced most of his known works between 1589 and 1613. His early plays were primarily comedies and histories and are regarded as some of the best works produced in these genres. He then wrote mainly tragedies until 1608, among them Hamlet, Othello, King Lear and Macbeth, all considered to be among the finest works in English. In the last phase of his life he wrote tragicomedies (also known as romances) such as The Winter's Tale and The Tempest, and collaborated with other playwrights.
+
+Many of Shakespeare's plays were published in editions of varying quality and accuracy during his lifetime. However, in 1623 John Heminges and Henry Condell, two fellow actors and friends of Shakespeare's, published a more definitive text known as the First Folio, a posthumous collected edition of Shakespeare's dramatic works that includes 36 of his plays. Its preface includes a prescient poem by Ben Jonson, a former rival of Shakespeare, who hailed Shakespeare with the now - famous epithet: "not of an age, but for all time".
+
+<h2>Plays</h2>
+Most playwrights of the period typically collaborated with others at some point, as critics agree Shakespeare did, mostly early and late in his career.
+
+The first recorded works of Shakespeare are Richard III and the three parts of Henry VI, written in the early 1590s during a vogue for historical drama. Shakespeare's plays are difficult to date precisely, however, and studies of the texts suggest that Titus Andronicus, The Comedy of Errors, The Taming of the Shrew, and The Two Gentlemen of Verona may also belong to Shakespeare's earliest period. His first histories, which draw heavily on the 1587 edition of Raphael Holinshed's Chronicles of England, Scotland, and Ireland, dramatise the destructive results of weak or corrupt rule and have been interpreted as a justification for the origins of the Tudor dynasty. The early plays were influenced by the works of other Elizabethan dramatists, especially Thomas Kyd and Christopher Marlowe, by the traditions of medieval drama, and by the plays of Seneca. The Comedy of Errors was also based on classical models, but no source for The Taming of the Shrew has been found, though it has an identical plot but different wording as another play with a similar name. Like The Two Gentlemen of Verona, in which two friends appear to approve of rape, the Shrew's story of the taming of a woman's independent spirit by a man sometimes troubles modern critics, directors, and audiences.
+
+Shakespeare's early classical and Italianate comedies, containing tight double plots and precise comic sequences, give way in the mid - 1590s to the romantic atmosphere of his most acclaimed comedies. A Midsummer Night's Dream is a witty mixture of romance, fairy magic, and comic lowlife scenes. Shakespeare's next comedy, the equally romantic The Merchant of Venice, contains a portrayal of the vengeful Jewish moneylender Shylock, which reflects dominant Elizabethan views but may appear derogatory to modern audiences. The wit and wordplay of Much Ado About Nothing, the charming rural setting of As You Like It, and the lively merrymaking of Twelfth Night complete Shakespeare's sequence of great comedies. After the lyrical Richard II, written almost entirely in verse, Shakespeare introduced prose comedy into the histories of the late 1590s, Henry IV, Part 1 and 2, and Henry V. Henry IV features Falstaff, rogue, wit and friend of Prince Hal. His characters become more complex and tender as he switches deftly between comic and serious scenes, prose and poetry, and achieves the narrative variety of his mature work. This period begins and ends with two tragedies: Romeo and Juliet, the famous romantic tragedy of sexually charged adolescence, love, and death; and Julius Caesar - based on Sir Thomas North's 1579 translation of Plutarch's Parallel Lives - which introduced a new kind of drama. According to the Shakespearean scholar James Shapiro, in Julius Caesar, "the various strands of politics, character, inwardness, contemporary events, even Shakespeare's own reflections on the act of writing, began to infuse each other".
+
+In the early - 17th century, Shakespeare wrote the so-called "problem plays" Measure for Measure, Troilus and Cressida, and All's Well That Ends Well and a number of his best known tragedies. Many critics believe that Shakespeare's tragedies represent the peak of his art. Hamlet has probably been analysed more than any other Shakespearean character, especially for his famous soliloquy which begins "To be or not to be; that is the question". Unlike the introverted Hamlet, whose fatal flaw is hesitation, Othello and Lear are undone by hasty errors of judgement. The plots of Shakespeare's tragedies often hinge on such fatal errors or flaws, which overturn order and destroy the hero and those he loves. In Othello, Iago stokes Othello's sexual jealousy to the point where he murders the innocent wife who loves him. In King Lear, the old king commits the tragic error of giving up his powers, initiating the events which lead to the torture and blinding of the Earl of Gloucester and the murder of Lear's youngest daughter, Cordelia. According to the critic Frank Kermode, "the play...offers neither its good characters nor its audience any relief from its cruelty". In Macbeth, the shortest and most compressed of Shakespeare's tragedies, uncontrollable ambition incites Macbeth and his wife, Lady Macbeth, to murder the rightful king and usurp the throne until their own guilt destroys them in turn. In this play, Shakespeare adds a supernatural element to the tragic structure. His last major tragedies, Antony and Cleopatra and Coriolanus, contain some of Shakespeare's finest poetry and were considered his most successful tragedies by the poet and critic T. S. Eliot. Eliot wrote, "Shakespeare acquired more essential history from Plutarch than most men could from the whole British Museum."
+
+In his final period, Shakespeare turned to romance or tragicomedy and completed three more major plays: Cymbeline, The Winter's Tale, and The Tempest, as well as the collaboration, Pericles, Prince of Tyre. Less bleak than the tragedies, these four plays are graver in tone than the comedies of the 1590s, but they end with reconciliation and the forgiveness of potentially tragic errors. Some commentators have seen this change in mood as evidence of a more serene view of life on Shakespeare's part, but it may merely reflect the theatrical fashion of the day. Shakespeare collaborated on two further surviving plays, Henry VIII and The Two Noble Kinsmen, probably with John Fletcher.
+    `,
+  }, {
+    puzzleId: 6,
+    name: "Unforseeable Future",
+    points: 4,
+    body: (<div><i>Historical records indicate that they were unpredictable.</i></div>),
+    answer: "Random number generation",
+    article:`
+Random number generation is a process by which, often by means of a random number generator (RNG), a sequence of numbers or symbols is generated that cannot be reasonably predicted better than by random chance. This means that the particular outcome sequence will contain some patterns detectable in hindsight but impossible to foresee. True random number generators can be hardware random - number generators (HRNGs), wherein each generation is a function of the current value of a physical environment's attribute that is constantly changing in a manner that is practically impossible to model. This would be in contrast to so - called "random number generations" done by pseudorandom number generators (PRNGs), which generate numbers that only look random but are in fact predetermined - these generations can be reproduced simply by knowing the state of the PRNG.
+
+Various applications of randomness have led to the development of different methods for generating random data. Some of these have existed since ancient times, including well - known examples like the rolling of dice, coin flipping, the shuffling of playing cards, the use of yarrow stalks (for divination) in the I Ching, as well as countless other techniques. Because of the mechanical nature of these techniques, generating large quantities of sufficiently random numbers (important in statistics) required much work and time. Thus, results would sometimes be collected and distributed as random number tables.
+
+<h2>Practical</h2>  <h2>applications</h2>  <h2>and</h2>  <h2>uses</h2> 
+
+Random number generators have applications in gambling, statistical sampling, computer simulation, cryptography, completely randomized design, and other areas where producing an unpredictable result is desirable. Generally, in applications having unpredictability as the paramount feature, such as in security applications, hardware generators are generally preferred over pseudorandom algorithms, where feasible.
+
+Pseudorandom number generators are very useful in developing Monte Carlo - method simulations, as debugging is facilitated by the ability to run the same sequence of random numbers again by starting from the same random seed. They are also used in cryptography - so long as the seed is secret. The sender and receiver can generate the same set of numbers automatically to use as keys.
     `,
   }, {
     puzzleId: 8,
-    name: "Slim",
-    points: 5,
-    body: (<div><i>Historical records indicate that it was not fat.</i><br/><br/>A hint is available at a cost of 2 points.</div>),
-    answer: "Leaning Tower of Pisa",
-    article: `
-The Leaning Tower of Pisa, or simply the Tower of Pisa (torre di Pisa), is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four - degree lean, the result of an unstable foundation. The tower is one of three structures in Pisa's Cathedral Square (Piazza del Duomo), which includes the cathedral and Pisa Baptistry. Over time, the tower has become one of the most visited tourist attractions in the world as well as an architectural icon of Italy, receiving over 5 million visitors each year.
-
-The height of the tower is 55.86 metres (183 feet 3 inches) from the ground on the low side and 56.67 m (185 ft 11 in) on the high side. The width of the walls at the base is 2.44 m (8 ft 0 in). Its weight is estimated at 14,500 tonnes (16,000 short tons). The tower has 296 or 294 steps; the seventh floor has two fewer steps on the north - facing staircase.
-
-The tower began to lean during construction in the 12th century, due to soft ground which could not properly support the structure's weight. It worsened through the completion of construction in the 14th century. By 1990, the tilt had reached 5.5 degrees. The structure was stabilized by remedial work between 1993 and 2001, which reduced the tilt to 3.97 degrees.
-
-<h2>History</h2>  <h2>following</h2>  <h2>Construction</h2>
-
-Numerous efforts have been made to restore the tower to a vertical orientation or at least keep it from falling over. Most of these efforts failed; some worsened the tilt. On 27 February 1964, the government of Italy requested aid in preventing the tower from toppling. It was, however, considered important to retain the current tilt, due to the role that this element played in promoting the tourism industry of Pisa.
-
-Starting in 1993, 870 tonnes of lead counterweights were added, which straightened the tower slightly.
-
-The tower and the neighbouring cathedral, baptistery, and cemetery are included in the Piazza del Duomo UNESCO World Heritage Site, which was declared in 1987.
-
-The tower was closed to the public on 7 January 1990, after more than two decades of stabilisation studies and spurred by the abrupt collapse of the Civic Tower of Pavia in 1989. The bells were removed to relieve some weight, and cables were cinched around the third level and anchored several hundred meters away, and residences in the path of a potential collapse were vacated. The selected method for preventing the collapse of the tower was to slightly reduce its tilt to a safer angle by removing 38 cubic metres (1,342 cubic feet) of soil from underneath the raised end. The tower's tilt was reduced by 45 centimetres (17 inches), returning to its 1838 position. After a decade of corrective reconstruction and stabilization efforts, the tower was reopened to the public on 15 December 2001, and was declared stable for at least another 300 years. In total, 70 metric tons (77 short tons) of soil were removed.
-
-After a phase (1990 - 2001) of structural strengthening, the tower has been undergoing gradual surface restoration to repair visible damage, mostly corrosion and blackening. These are particularly pronounced due to the tower's age and its exposure to wind and rain. In May 2008, engineers announced that the tower had been stabilized such that it had stopped moving for the first time in its history. They stated that it would be stable for at least 200 years.
-    `,
-  }, {
-    puzzleId: 9,
     name: "Division",
-    points: 6,
-    body: (<div><i>Historical records indicate that it could have strange implications when moving around.</i><br/><br/>A hint is available at a cost of 2 points.</div>),
+    points: 5,
+    body: (<div><i>Historical records indicate that it could have strange implications when moving.</i></div>),
     answer: "International Date Line",
     article: `
 The International Date Line (IDL) is the line extending between the South and North Poles that is the boundary between one calendar day and the next. It passes through the Pacific Ocean, roughly following the 180° line of longitude and deviating to pass around some territories and island groups. Crossing the date line eastbound decreases the date by one day, while crossing the date line westbound increases the date.
@@ -220,68 +232,56 @@ The IDL then bends southwest to return to 180°. It follows that meridian until 
 According to the clock, the first areas to experience a new day and a New Year are islands that use UTC+ 14: 00. These include portions of the Republic of Kiribati, including Millennium Island and Kiritimati in the Line Islands. The first major cities to experience a new day are Auckland and Wellington, New Zealand (UTC+ 12: 00 or UTC+ 13: 00 during daylight saving time).
 
 Every day for 2 hours from 10: 00 to 12: 00 UTC there are 3 different days on earth. Example:  On Tuesday 10: 33 UTC it is Monday 22: 33 on Baker Island (US), 23: 33 on Midway (US), Pago Pago (American Samoa) and Alofi (Niue), Tuesday almost everywhere else on earth and Wednesday 00: 33 in Kiritimati (Kiribati) in the Line Islands. Then 1 hour 11 minutes later at 11: 44 UTC it is Monday 23: 44 on Baker Island, Tuesday almost everywhere else on earth, Wednesday 01: 44 in Kiritimati and 00: 44 in Canton Island (Kiribati) in the Phoenix Islands, Apia (Samoa), Atafu (Tokelau) and Nukualofa (Tonga) (also in Auckland during summer when NZDT is observed). Chatham Islands (NZ) are also nominally 2 days ahead of Baker Island for 45 minutes in the winter (CHAST) and 1 hour 45 minutes in the summer (CHADT).
-    `,
+    `,  
   }, {
     puzzleId: 10,
-    name: "Green-lit",
+    name: "Composition",
     points: 6,
-    body: (<div><i>Historical records indicate that although it was greenlit, the dream was a tragedy.</i><br/><br/>A hint is available at a cost of 2 points.</div>),
-    answer: "The Great Gatsby",
+    body: (<div><i>Historical records indicate that makeup was fundamental.</i></div>),
+    answer: "History of the United States Constitution",
     article: `
-The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first - person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.
+The United States Constitution has served as the supreme law of the United States since taking effect in 1789. The document was written at the 1787 Philadelphia Convention and was ratified through a series of state conventions held in 1787 and 1788. Since 1789, the Constitution has been amended twenty - seven times; particularly important amendments include the ten amendments of the United States Bill of Rights, the three Reconstruction Amendments, and the Nineteenth Amendment.
 
-<h2>Plot</h2>  <h2>summary</h2>
-In spring 1922, Nick Carraway - a Yale alumnus from the Midwest and a World War I veteran - journeys to New York City to obtain employment as a bond salesman. He rents a bungalow in the Long Island village of West Egg, next to a luxurious estate inhabited by Jay Gatsby, an enigmatic multi - millionaire who hosts dazzling soirées yet does not partake in them.
+The Constitution grew out of efforts to reform the Articles of Confederation, an earlier constitution which provided for a loose alliance of states with a weak central government. From May 1787 through September 1787, delegates from twelve of the thirteen states convened in Philadelphia, where they wrote a new constitution. Two alternative plans were developed at the convention. The nationalist majority, soon to be called "Federalists", put forth the Virginia Plan, a consolidated government based on proportional representation among the states by population. The "old patriots", later called "Anti - Federalists", advocated the New Jersey Plan, a purely federal proposal, based on providing each state with equal representation. The Connecticut Compromise allowed for both plans to work together. Other controversies developed regarding slavery and a Bill of Rights in the original document.  
 
-One evening, Nick dines with a distant cousin, Daisy Buchanan, in the old money town of East Egg. Daisy is married to Tom Buchanan, formerly a Yale football star whom Nick knew during his college days. The couple has recently relocated from Chicago to a mansion directly across the bay from Gatsby's estate. There, Nick encounters Jordan Baker, an insolent flapper and golf champion who is a childhood friend of Daisy's. Jordan confides to Nick that Tom keeps a mistress, who brazenly telephones him at his home and lives in the "valley of ashes", a sprawling refuse dump. That evening, Nick sees Gatsby standing alone on his lawn, staring at a green light across the bay.
+The drafted Constitution was submitted to the Congress of the Confederation in September 1787; that same month it approved the forwarding of the Constitution as drafted to the states, each of which would hold a ratification convention. The Federalist Papers, were published in newspapers while the states were debating ratification, which provided background and justification for the Constitution. Some states agreed to ratify the Constitution only if the amendments that were to become the Bill of Rights would be taken up immediately by the new government. In September 1788, the Congress of the Confederation certified that eleven states had ratified the new Constitution, and chose dates for federal elections and the transition to the new constitution on March 4, 1789. The new government began on March 4, 1789, with eleven states assembled in New York City. North Carolina waited to ratify the Constitution until after the Bill of Rights was passed by the new Congress, and Rhode Island's ratification would only come after a threatened trade embargo.
 
-Days later, Nick reluctantly accompanies a drunken and agitated Tom to New York City by train. En route, they stop at a garage inhabited by mechanic George Wilson and his wife - and Tom's mistress - Myrtle. Myrtle joins them, and the trio proceeds to a small New York apartment that Tom has rented for trysts with her. Guests arrive and a party ensues, which ends with Tom slapping Myrtle and breaking her nose after she mentions Daisy.
+In 1791, the states ratified the Bill of Rights, which established protections for various civil liberties. The Bill of Rights initially only applied to the federal government, but following a process of incorporation most protections of the Bill of Rights now apply to state governments. Further amendments to the Constitution have addressed federal relationships, election procedures, terms of office, expanding the electorate, financing the federal government, consumption of alcohol, and congressional pay. Between 1865 and 1870, the states ratified the Reconstruction Amendments, which abolished slavery, guaranteed equal protection of the law, and implemented prohibitions on the restriction of voter rights. The meaning of the Constitution is interpreted by judicial review in the federal courts. The original parchment copies are on display at the National Archives Building.
 
-One morning, Nick receives a formal invitation to a party at Gatsby's mansion. Once there, Nick is embarrassed that he recognizes no one and begins drinking heavily until he encounters Jordan. While chatting with her, he is approached by a man who introduces himself as Jay Gatsby and insists that both he and Nick served in the 3rd Infantry Division during the war. Gatsby attempts to ingratiate himself with Nick and when Nick leaves the party, he notices Gatsby watching him.
+<h2>Declaration</h2>  <h2>of</h2>  <h2>Independence</h2>
 
-In late July, Nick and Gatsby have lunch at a speakeasy. Gatsby tries impressing Nick with tales of his war heroism and his Oxford days. Afterward, Nick meets Jordan again at the Plaza Hotel. Jordan reveals that Gatsby and Daisy met around 1917 when Gatsby was an officer in the American Expeditionary Forces. They fell in love, but when Gatsby was deployed overseas, Daisy reluctantly married Tom. Gatsby hopes that his newfound wealth and dazzling parties will make Daisy reconsider. Gatsby uses Nick to stage a reunion with Daisy, and the two embark upon an affair.
+On June 4, 1776, a resolution was introduced in the Second Continental Congress declaring the union with Great Britain to be dissolved, proposing the formation of foreign alliances, and suggesting the drafting of a plan of confederation to be submitted to the respective states. Independence was declared on July 4, 1776; the preparation of a plan of confederation was postponed. Although the Declaration was a statement of principles, it did not create a government or even a framework for how politics would be carried out. It was the Articles of Confederation that provided the necessary structure to the new nation during and after the American Revolution. The Declaration, however, did set forth the ideas of natural rights and the social contract that would help form the foundation of constitutional government.
 
-In September, Tom discovers the affair when Daisy carelessly addresses Gatsby with unabashed intimacy in front of him. Later, at a Plaza Hotel suite, Gatsby and Tom argue about the affair. Gatsby insists Daisy declare that she never loved Tom. Daisy claims she loves Tom and Gatsby, upsetting both. Tom reveals Gatsby is a swindler whose money comes from bootlegging alcohol. Upon hearing this, Daisy chooses to stay with Tom. Tom scornfully tells Gatsby to drive her home, knowing that Daisy will never leave him.
-
-While returning to East Egg, Gatsby and Daisy drive by Wilson's garage and their car strikes Myrtle, killing her instantly. Later Gatsby reveals to Nick that Daisy was driving the car, but that he intends to take the blame for the accident to protect her. Nick urges Gatsby to flee to avoid prosecution, but he refuses. After Tom tells George that Gatsby owns the car that struck Myrtle, a distraught George assumes the owner of the vehicle must be Myrtle's lover. George fatally shoots Gatsby in his mansion's swimming pool, then kills himself.
-
-Several days after Gatsby's murder, his father Henry Gatz arrives for the sparsely attended funeral. After Gatsby's death, Nick comes to hate New York and decides that Gatsby, Daisy, Tom, and he were all Midwesterners unsuited to Eastern life.[d] Nick encounters Tom and initially refuses to shake his hand. Tom admits he was the one who told George that Gatsby owned the vehicle that killed Myrtle. Before returning to the Midwest, Nick returns to Gatsby's mansion and stares across the bay at the green light emanating from the end of Daisy's dock.
-
-<h2>Critical</h2> <h2>Analysis</h2>
-
-Following the novel's revival, later critical writings on The Great Gatsby focused on Fitzgerald's disillusionment with the American Dream in the hedonistic Jazz Age, a name for the era which Fitzgerald claimed to have coined. In 1970, scholar Roger L. Pearson asserted that Fitzgerald's work - more so than other twentieth century novels - is especially linked with this conceptualization of the American dream. Pearson traced the literary origins of this dream to Colonial America. The dream is the belief that every individual, regardless of their origins, may seek and achieve their desired goals, "be they political, monetary, or social. It is the literary expression of the concept of America: The land of opportunity".
-
-Scholars and writers commonly ascribe Gatsby's inability to achieve the American Dream to entrenched class disparities in American society. The novel underscores the limits of the American lower class to transcend their station of birth. Scholar Sarah Churchwell contends that Fitzgerald's novel is a tale of class warfare in a status-obsessed country that refuses to acknowledge publicly it even has a class system.
+The era of the Declaration of Independence is sometimes called the "Continental Congress" period. John Adams famously estimated as many as one - third of those resident in the original thirteen colonies were patriots. Scholars such as Gordon Wood describe how Americans were caught up in the Revolutionary fervor and excitement of creating governments, societies, a new nation on the face of the earth by rational choice as Thomas Paine declared in Common Sense.
     `,
   }, {
     puzzleId: 11,
-    name: "Revenge, love, and power",
+    name: "Slim",
     points: 7,
-    body: (<div><i>Historical records indicate that he wrote in the rhythm of a heartbeat.</i><br/><br/>A hint is available at a cost of 2 points.</div>),
-    answer: "William Shakespeare",
+    body: (<div><i>Historical records indicate that it was not fat.</i></div>),
+    answer: "Leaning Tower of Pisa",
     article: `
-William Shakespeare was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon" or simply "the Bard". His extant works, including collaborations, consist of some 39 plays, 154 sonnets, three long narrative poems and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted.
+The Leaning Tower of Pisa, or simply the Tower of Pisa (torre di Pisa), is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four - degree lean, the result of an unstable foundation. The tower is one of three structures in Pisa's Cathedral Square (Piazza del Duomo), which includes the cathedral and Pisa Baptistry. Over time, the tower has become one of the most visited tourist attractions in the world as well as an architectural icon of Italy, receiving over 5 million visitors each year.
 
-Shakespeare was born and raised in Stratford - upon - Avon, Warwickshire. At the age of 18, he married Anne Hathaway, with whom he had three children: Susanna, and twins Hamnet and Judith. Sometime between 1585 and 1592 he began a successful career in London as an actor, writer, and part - owner ("sharer") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne. At age 49 (around 1613) he appears to have retired to Stratford, where he died three years later. Few records of Shakespeare's private life survive; this has stimulated considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others.
+The height of the tower is 55.86 metres (183 feet 3 inches) from the ground on the low side and 56.67 m (185 ft 11 in) on the high side. The width of the walls at the base is 2.44 m (8 ft 0 in). Its weight is estimated at 14,500 tonnes (16,000 short tons). The tower has 296 or 294 steps; the seventh floor has two fewer steps on the north - facing staircase.
 
-Shakespeare produced most of his known works between 1589 and 1613. His early plays were primarily comedies and histories and are regarded as some of the best works produced in these genres. He then wrote mainly tragedies until 1608, among them Hamlet, Othello, King Lear and Macbeth, all considered to be among the finest works in English. In the last phase of his life he wrote tragicomedies (also known as romances) such as The Winter's Tale and The Tempest, and collaborated with other playwrights.
+The tower began to lean during construction in the 12th century, due to soft ground which could not properly support the structure's weight. It worsened through the completion of construction in the 14th century. By 1990, the tilt had reached 5.5 degrees. The structure was stabilized by remedial work between 1993 and 2001, which reduced the tilt to 3.97 degrees.
 
-Many of Shakespeare's plays were published in editions of varying quality and accuracy during his lifetime. However, in 1623 John Heminges and Henry Condell, two fellow actors and friends of Shakespeare's, published a more definitive text known as the First Folio, a posthumous collected edition of Shakespeare's dramatic works that includes 36 of his plays. Its preface includes a prescient poem by Ben Jonson, a former rival of Shakespeare, who hailed Shakespeare with the now - famous epithet: "not of an age, but for all time".
+<h2>History</h2>  <h2>following</h2>  <h2>Construction</h2>
 
-<h2>Plays</h2>
-Most playwrights of the period typically collaborated with others at some point, as critics agree Shakespeare did, mostly early and late in his career.
+Numerous efforts have been made to restore the tower to a vertical orientation or at least keep it from falling over. Most of these efforts failed; some worsened the tilt. On 27 February 1964, the government of Italy requested aid in preventing the tower from toppling. It was, however, considered important to retain the current tilt, due to the role that this element played in promoting the tourism industry of Pisa.
 
-The first recorded works of Shakespeare are Richard III and the three parts of Henry VI, written in the early 1590s during a vogue for historical drama. Shakespeare's plays are difficult to date precisely, however, and studies of the texts suggest that Titus Andronicus, The Comedy of Errors, The Taming of the Shrew, and The Two Gentlemen of Verona may also belong to Shakespeare's earliest period. His first histories, which draw heavily on the 1587 edition of Raphael Holinshed's Chronicles of England, Scotland, and Ireland, dramatise the destructive results of weak or corrupt rule and have been interpreted as a justification for the origins of the Tudor dynasty. The early plays were influenced by the works of other Elizabethan dramatists, especially Thomas Kyd and Christopher Marlowe, by the traditions of medieval drama, and by the plays of Seneca. The Comedy of Errors was also based on classical models, but no source for The Taming of the Shrew has been found, though it has an identical plot but different wording as another play with a similar name. Like The Two Gentlemen of Verona, in which two friends appear to approve of rape, the Shrew's story of the taming of a woman's independent spirit by a man sometimes troubles modern critics, directors, and audiences.
+Starting in 1993, 870 tonnes of lead counterweights were added, which straightened the tower slightly.
 
-Shakespeare's early classical and Italianate comedies, containing tight double plots and precise comic sequences, give way in the mid - 1590s to the romantic atmosphere of his most acclaimed comedies. A Midsummer Night's Dream is a witty mixture of romance, fairy magic, and comic lowlife scenes. Shakespeare's next comedy, the equally romantic The Merchant of Venice, contains a portrayal of the vengeful Jewish moneylender Shylock, which reflects dominant Elizabethan views but may appear derogatory to modern audiences. The wit and wordplay of Much Ado About Nothing, the charming rural setting of As You Like It, and the lively merrymaking of Twelfth Night complete Shakespeare's sequence of great comedies. After the lyrical Richard II, written almost entirely in verse, Shakespeare introduced prose comedy into the histories of the late 1590s, Henry IV, Part 1 and 2, and Henry V. Henry IV features Falstaff, rogue, wit and friend of Prince Hal. His characters become more complex and tender as he switches deftly between comic and serious scenes, prose and poetry, and achieves the narrative variety of his mature work. This period begins and ends with two tragedies: Romeo and Juliet, the famous romantic tragedy of sexually charged adolescence, love, and death; and Julius Caesar - based on Sir Thomas North's 1579 translation of Plutarch's Parallel Lives - which introduced a new kind of drama. According to the Shakespearean scholar James Shapiro, in Julius Caesar, "the various strands of politics, character, inwardness, contemporary events, even Shakespeare's own reflections on the act of writing, began to infuse each other".
+The tower and the neighbouring cathedral, baptistery, and cemetery are included in the Piazza del Duomo UNESCO World Heritage Site, which was declared in 1987.
 
-In the early - 17th century, Shakespeare wrote the so-called "problem plays" Measure for Measure, Troilus and Cressida, and All's Well That Ends Well and a number of his best known tragedies. Many critics believe that Shakespeare's tragedies represent the peak of his art. Hamlet has probably been analysed more than any other Shakespearean character, especially for his famous soliloquy which begins "To be or not to be; that is the question". Unlike the introverted Hamlet, whose fatal flaw is hesitation, Othello and Lear are undone by hasty errors of judgement. The plots of Shakespeare's tragedies often hinge on such fatal errors or flaws, which overturn order and destroy the hero and those he loves. In Othello, Iago stokes Othello's sexual jealousy to the point where he murders the innocent wife who loves him. In King Lear, the old king commits the tragic error of giving up his powers, initiating the events which lead to the torture and blinding of the Earl of Gloucester and the murder of Lear's youngest daughter, Cordelia. According to the critic Frank Kermode, "the play...offers neither its good characters nor its audience any relief from its cruelty". In Macbeth, the shortest and most compressed of Shakespeare's tragedies, uncontrollable ambition incites Macbeth and his wife, Lady Macbeth, to murder the rightful king and usurp the throne until their own guilt destroys them in turn. In this play, Shakespeare adds a supernatural element to the tragic structure. His last major tragedies, Antony and Cleopatra and Coriolanus, contain some of Shakespeare's finest poetry and were considered his most successful tragedies by the poet and critic T. S. Eliot. Eliot wrote, "Shakespeare acquired more essential history from Plutarch than most men could from the whole British Museum."
+The tower was closed to the public on 7 January 1990, after more than two decades of stabilisation studies and spurred by the abrupt collapse of the Civic Tower of Pavia in 1989. The bells were removed to relieve some weight, and cables were cinched around the third level and anchored several hundred meters away, and residences in the path of a potential collapse were vacated. The selected method for preventing the collapse of the tower was to slightly reduce its tilt to a safer angle by removing 38 cubic metres (1,342 cubic feet) of soil from underneath the raised end. The tower's tilt was reduced by 45 centimetres (17 inches), returning to its 1838 position. After a decade of corrective reconstruction and stabilization efforts, the tower was reopened to the public on 15 December 2001, and was declared stable for at least another 300 years. In total, 70 metric tons (77 short tons) of soil were removed.
 
-In his final period, Shakespeare turned to romance or tragicomedy and completed three more major plays: Cymbeline, The Winter's Tale, and The Tempest, as well as the collaboration, Pericles, Prince of Tyre. Less bleak than the tragedies, these four plays are graver in tone than the comedies of the 1590s, but they end with reconciliation and the forgiveness of potentially tragic errors. Some commentators have seen this change in mood as evidence of a more serene view of life on Shakespeare's part, but it may merely reflect the theatrical fashion of the day. Shakespeare collaborated on two further surviving plays, Henry VIII and The Two Noble Kinsmen, probably with John Fletcher.
+After a phase (1990 - 2001) of structural strengthening, the tower has been undergoing gradual surface restoration to repair visible damage, mostly corrosion and blackening. These are particularly pronounced due to the tower's age and its exposure to wind and rain. In May 2008, engineers announced that the tower had been stabilized such that it had stopped moving for the first time in its history. They stated that it would be stable for at least 200 years.
     `,
   }, {
     puzzleId: 12,
-    name: "Switch",
+    name: "Surprise",
     points: 7,
     body: (<div><i>Historical records indicate that the results were unexpected.</i></div>),
     answer: "Rick Astley",
