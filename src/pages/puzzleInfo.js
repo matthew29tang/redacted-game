@@ -130,7 +130,7 @@ Plague was reportedly first introduced to Europe via Genoese traders from their 
     puzzleId: 6,
     name: "Cyclical",
     points: 4,
-    body: (<div><i>Historical records indicate that although it ended off worse than it started.</i></div>),
+    body: (<div><i>Historical records indicate that it ended off worse than it started.</i></div>),
     answer: "Animal Farm",
     article: `
 Animal Farm (originally Animal Farm: A Fairy Story) is a satirical allegorical dystopian novella, in the form of a beast fable, by George Orwell, first published in England on 17 August 1945. It follows the anthropomorphic farm animals of the fictional Manor Farm as they rebel against their human farmer, hoping to create a society where all animals can be equal, free, and happy away from human interventions. However, by the end of the novella, the rebellion is betrayed, and under the dictatorship of a pig named Napoleon, the farm ends up in a far worse state than it was before.
