@@ -176,7 +176,7 @@ In his final period, Shakespeare turned to romance or tragicomedy and completed 
     `,
   }, {
     puzzleId: 8,
-    name: "Unforseeable Future",
+    name: "Unforeseeable Future",
     points: 4,
     body: (<div><i>Historical records indicate that they were unpredictable.</i></div>),
     answer: "Random number generation",
